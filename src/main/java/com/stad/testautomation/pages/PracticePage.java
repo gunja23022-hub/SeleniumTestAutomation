@@ -16,7 +16,7 @@ public class PracticePage {
 			
 		
 		this.driver=driver;
-		PageFactory.initElements(driver, this); //Mandatory
+		PageFactory.initElements(driver, this); //Mandatory for all page class
 		
 		}
 		

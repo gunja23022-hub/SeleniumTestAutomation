@@ -14,6 +14,7 @@ import com.stad.testautomation.pages.TestLoginPage;
 public class LoginTest {
 	
 	WebDriver driver;  // this is declaration
+	
 	@BeforeClass
 	public void setup()
 	{
@@ -22,6 +23,7 @@ public class LoginTest {
 			driver.manage().window().maximize();
 			
 }
+	
 	@Test
 	public void login() throws InterruptedException
 	
