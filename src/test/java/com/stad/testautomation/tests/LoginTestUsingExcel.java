@@ -18,8 +18,7 @@ import excel.ReadDataFromExcel;
 
 public class LoginTestUsingExcel {
 	
-	WebDriver driver;  
-	//Before hook
+	WebDriver driver;  // this is declaration
 	@BeforeClass
 	public void setup()
 	{
